@@ -74,10 +74,15 @@ playwright-report/index.html
 
 ![image](https://github.com/user-attachments/assets/89cf8ab8-363c-4c1c-b84e-da903c2d6b17)
 
+## 8 Execution of test recording
 
 
 
-## 8 -  Troubleshooting
+https://github.com/user-attachments/assets/9201dbaa-42cf-4609-a46a-a318ebd9c847
+
+
+
+## 9 - Troubleshooting
 
 1. Playwright not found?
 Run:
