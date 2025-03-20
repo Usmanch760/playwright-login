@@ -1,5 +1,5 @@
 # playwright-login
-Playwright Login Automation
+## Playwright Login Automation
 
 This project automates the login process for a web application https://opensource-demo.orangehrmlive.com/web/index.php/auth/login using Playwright with TypeScript. It follows the Page Object Model (POM) for better maintainability and stores credentials securely using environment variables.
 Project Features
@@ -10,7 +10,7 @@ Project Features
 * HTML test report generation
 
 
-1 - Prerequisites
+## 1 - Prerequisites
 
 Ensure you have the following installed:
 
@@ -18,20 +18,20 @@ Ensure you have the following installed:
     Git (Download: https://git-scm.com/)
     VS Code (Recommended)
 
-2 -  Clone the Repository
+## 2 -  Clone the Repository
 
 Open a terminal and run:
 
 git clone <repository-url>
 cd playwright-login-automation
 
-3 -  Install Dependencies
+## 3 -  Install Dependencies
 
 Run the following command to install required dependencies:
 
 npm install
 
-4 -  Configure Environment Variables
+## 4 -  Configure Environment Variables
 
 For security reasons, credentials are stored in an .env file.
 
@@ -47,7 +47,7 @@ Update your .env file with login credentials:
 
     Make sure .env is ignored in Git (already added in .gitignore).
 
-5 - Run Tests
+## 5 - Run Tests
 To run all tests:
 
 npx playwright test
@@ -60,7 +60,7 @@ To debug tests:
 
 npx playwright test --debug
 
-6 -  Generate and View Test Reports
+## 6 -  Generate and View Test Reports
 
 To generate an HTML test report:
 
@@ -70,22 +70,14 @@ To view the report, open:
 
 playwright-report/index.html
 
-7 - Project Structure
+## 7 - Project Structure
 
-📂 playwright-login
- ┣ 📂 pages
- ┃ ┗ 📜 LoginPage.ts      # Page Object Model (POM) for login
- ┣ 📂 tests
- ┃ ┗ 📜 LoginTest.spec.ts # Test case for login
- ┣ 📜 .env                # Stores credentials (ignored by Git)
- ┣ 📜 .gitignore          # Prevents .env from being committed
- ┣ 📜 playwright.config.ts # Playwright configuration
- ┣ 📜 package.json        # Node.js dependencies
- ┣ 📜 README.md           # Project documentation
+![image](https://github.com/user-attachments/assets/89cf8ab8-363c-4c1c-b84e-da903c2d6b17)
 
 
 
-8 -  Troubleshooting
+
+## 8 -  Troubleshooting
 
 1. Playwright not found?
 Run:
